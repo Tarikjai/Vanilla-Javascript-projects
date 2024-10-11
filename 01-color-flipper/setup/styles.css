@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Bold weight */
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,5 +23,34 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap : 100px
+    gap : 400px;
+    padding: 10px;
+    background-color: #ffffff;
+    font-weight: 600;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre */
+
+    
+}
+.flipType{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap : 10px
+}
+
+h1{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 9px;
+    border-radius: 10px
+   
+}
+
+ 
+.container {
+    display: flex;
+    flex-direction: column;
+    
 }
